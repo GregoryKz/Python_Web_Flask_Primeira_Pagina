@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Texto</h1>
+    <h1>{{texto}}</h1> <!-- onde o python ira preencher-->
+    <p>{{paragrafo}}</p>
+    <h2>{{h2}}</h2>
+    <h3>{{H3python}}</h3>
+
+
+    <form action="/processar" method="post">
+        <label>Digite seu nome</label>
+        <input type="text" name="nome">
+        <br><br>
+        <label>Digite sua idade</label>
+        <input type="number" name="idade">
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p>{{resultadoForm}}</p>
+
+</body>
+</html>
+
