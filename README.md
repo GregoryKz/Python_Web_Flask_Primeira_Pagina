@@ -1,60 +1,64 @@
-# Python Web Flask - Primeira Página
+# Aulas de Python para Web – SENAC
 
-Esse repositório contém um projeto simples em **Python** utilizando o **Flask** para criar e renderizar uma página web. Foi desenvolvido como atividade prática durante as aulas de Python para Web no curso do Senac.
+Este repositório reúne **materiais, exemplos e exercícios práticos utilizados em aulas de Python para Web no SENAC**, com foco no desenvolvimento de páginas web dinâmicas utilizando o framework Flask.
 
-## 🧠 Tecnologias utilizadas
+O conteúdo foi organizado para apoiar o processo de aprendizagem dos alunos em sala de aula, servindo como material de estudo e referência prática.
 
-- 🐍 Python
-- 📦 Flask (microframework web)
-- 🌐 HTML (templates Jinja2)
+---
 
-## 🚀 Pré‑requisitos
+## 🎯 Objetivo Educacional
 
-Antes de rodar o projeto, certifique‑se de ter instalado:
+O projeto tem como objetivo auxiliar os alunos a:
 
-- Python (versão 3.8+)
-- pip (gerenciador de pacotes)
+- Compreender os fundamentos de Python aplicados ao desenvolvimento web
+- Aprender a criar e configurar um servidor web simples com Flask
+- Renderizar páginas HTML usando templates
+- Entender a integração entre backend Python e frontend HTML
+- Praticar conceitos por meio de exemplos reais
 
-## 🛠️ Como executar
+---
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/python_web_flask_primeira_pagina.git
-Entre na pasta do projeto:
+## 📚 Conteúdos Trabalhados
 
-bash
+- Estrutura de um projeto Flask
+- Rotas e endpoints
+- Renderização de templates HTML com Jinja2
+- Passagem de dados do backend para o frontend
+- Organização de pastas em projetos web
+- Execução de aplicações locais
+
+---
+
+## 🧪 Aplicação em Sala de Aula
+
+Os exemplos foram utilizados de forma prática durante as aulas, permitindo que os alunos acompanhassem a construção do projeto, testassem variações e compreendessem o funcionamento de uma aplicação web básica em Python.
+
+---
+
+## 🏫 Contexto Acadêmico
+
+Material desenvolvido e aplicado em aulas do **SENAC**, como parte da formação introdutória em programação para web e desenvolvimento de aplicações simples.
+
+---
+
+## 👨‍🏫 Docência
+
+Conteúdo elaborado com foco pedagógico, priorizando clareza, progressão de dificuldade e aprendizagem prática.
+
+---
+
+## 📁 Estrutura do Projeto
+
+Aulas_Python_Web_SENAC/
+├── app.py # Arquivo principal da aplicação Flask
+├── templates/ # Pasta com templates HTML
+│ └── index.html # Página principal
+├── static/ # (Opcional) Arquivos estáticos como CSS, JS, imagens
+├── README.md # Este arquivo
+
+yaml
 Copiar código
-cd python_web_flask_primeira_pagina
-Instale as dependências:
 
-bash
-Copiar código
-pip install flask
-Execute o app:
+---
 
-bash
-Copiar código
-python app.py
-Abra o navegador e acesse:
-
-cpp
-Copiar código
-http://127.0.0.1:5000
-📁 Estrutura do projeto
-pgsql
-Copiar código
-python_web_flask_primeira_pagina/
-├── app.py
-├── templates/
-│   └── index.html
-├── README.md
-📝 Descrição do projeto
-Este projeto exemplifica como construir uma página web simples com Flask, servindo um template HTML e mostrando conteúdo dinâmico, totalmente com Python. É ideal para entender a base de rotas, renderização de templates e configuração básica de um micro‑servidor web.
-
-📌 Observações
-Projeto focado em aprendizado e prática.
-
-Pode ser expandido com CSS, formulários e rotas adicionais.
-
-🧑‍💻 Autor
-Feito por Seu Nome – atividade da disciplina de Python para Web no Senac.
+📌 *Repositório de uso educacional.*
