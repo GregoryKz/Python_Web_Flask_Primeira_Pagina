@@ -56,8 +56,6 @@ Aulas_Python_Web_SENAC/
 ├── static/ # (Opcional) Arquivos estáticos como CSS, JS, imagens
 ├── README.md # Este arquivo
 
-yaml
-Copiar código
 
 ---
 
